@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(245, 238, 228);
+}
+.container h1 {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.container input,
+label,
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  width: 250px;
+}
+.container #submit {
+  display: block;
+  margin: 10px 0px;
+  padding: 5px;
+  color: white;
+  background-color: blue;
+  border-radius: 3px;
+  border: none;
+  opacity: 0.8;
+}
+
+#submit:hover {
+  opacity: 1;
+}
+
+.container {
+  background-color: whitesmoke;
+  padding: 10px;
+  max-width: 500px;
+  min-width: fit-content;
+  margin: 0 auto;
+}
+
+.output {
+  border-top: 1px solid rgb(225, 224, 224);
+}
+
+.output h2 {
+  margin-top: 5px;
+  color: rgb(197, 160, 111);
+  font-size: 17px;
+  text-align: center;
+}
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+tr {
+  padding: 5px;
+  border-bottom: 1px solid rgb(225, 224, 224);
+}
+tr:hover {
+  background-color: rgb(235, 235, 234);
+}
+
+td,
+th {
+  padding: 5px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  width: 400px;
+  min-width: 200px;
+
+  margin: 15% auto;
+  padding: 15px;
+  border-radius: 5px;
+}
+.modal-content .close {
+  float: right;
+  padding-right: 10px;
+  font-size: 25px;
+  color: rgb(174, 171, 171);
+  cursor: pointer;
+}
+
+.close:hover {
+  color: black;
+}
+
+.modal-content h2 {
+  margin: -2px;
+  font-size: 16px;
+  margin-top: 10px;
+  color: rgb(188, 152, 109);
+  text-align: center;
+}
